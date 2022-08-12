@@ -1,0 +1,1516 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+.luckyFont {
+    font-family: "Luckiest Guy", display;
+}
+.text-system {
+    color: #1364dc;
+}
+.bg-primary {
+    background-color: #1364dc !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.flexed.divider {
+    display: flex !important;
+    justify-content: flex-start;
+    border: none;
+    margin-left: 0;
+    padding: 0;
+}
+#chat .divider {
+    border-left: none !important;
+}
+.divider {
+    border-left: 1px solid black;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+}
+
+.divider p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.divider div p:nth-child(1) {
+    color: #fff;
+    font-weight: bold;
+}
+
+.divider div p:last-child {
+    color: #8a8787;
+}
+
+.divider p > i {
+    font-size: 2rem;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.customBtn {
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: rgb(51, 46, 48);
+    border: 1px solid rgb(242, 245, 245);
+}
+.btn-back {
+    border-top-left-radius: 1;
+    border-bottom-left-radius: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.card {
+    border: none;
+}
+.delete {
+    color: red;
+}
+.edit {
+    color: black;
+}
+.link {
+    color: rgb(149, 214, 240);
+}
+.edit,
+.delete,
+.link {
+    font-size: 1.5em !important;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #000;
+}
+.table.table-custom {
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+.table.table-custom thead tr th {
+    border: none;
+}
+.table.table-custom tbody tr {
+    background: #fff;
+}
+.table.table-custom tbody tr td {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.table.table-custom tbody tr td:first-child {
+    border-left: 1px solid transparent;
+}
+.table.table-custom tbody tr td:last-child {
+    border-right: 1px solid transparent;
+}
+.table.table-custom tbody tr.tr-selected td {
+    border-color: #ff6e40 !important;
+}
+.table.table-custom tbody tr td:first-child {
+    /* border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem; */
+    padding-left: 15px;
+}
+.table.table-custom tbody tr td:last-child {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding-right: 15px;
+}
+.table.table-custom tbody tr:last-child td {
+    border-bottom-color: transparent;
+}
+.card table.table-custom tbody tr {
+    background: #fff;
+}
+.card table.table-custom tbody tr td {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card table.table-custom tbody tr td:first-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card table.table-custom tbody tr td:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+.table-responsive-stack tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.table-responsive-stack td,
+.table-responsive-stack th {
+    display: block;
+    -ms-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+}
+.bg-blue {
+    background-color: #1364dc;
+}
+.active {
+    color: #ffffff;
+    background-color: transparent !important;
+}
+.text-inactive,
+a:visited,
+a:focus {
+    color: #d9d9d9;
+    outline: none;
+}
+.nav .nav-link:hover {
+    color: #ffffff !important;
+    filter: saturate(3);
+}
+.profilePicName p,
+.profilePicName h6 {
+    margin: 0;
+    text-align: center;
+}
+.profilePicName > p {
+    font-size: 24;
+}
+.searchInput.nosubmit {
+    border: none;
+    padding: 0;
+}
+input.nosubmit {
+    background-color: white !important;
+    border-radius: 20px;
+    box-shadow: -1px 5px 10px #888888;
+    width: 260px;
+    border: none;
+    display: block;
+    padding: 5px 20px;
+}
+input:focus {
+    outline: none;
+}
+
+.faSearch {
+    color: blue;
+    margin-left: 220px;
+    bottom: 4px;
+    font-size: 1.1em;
+}
+.fa-bell-o {
+    font-size: 1.2rem !important;
+}
+.translate-custom {
+    transform: translate(-100%, -0%) !important;
+}
+.p-c1 {
+    padding: 0.25em;
+}
+@media screen and (min-width: 1200px) {
+    #overview,
+    #todos,
+    #numPupil,
+    #report {
+        padding: 50px;
+    }
+    img.profilePic {
+        width: 98.2px;
+        height: 98.2px;
+    }
+    #todos {
+        padding-top: 0px;
+    }
+    #numPupil {
+        padding-top: 100px;
+    }
+    #button-addon2 {
+        left: 95%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    #overview,
+    #todos,
+    #numPupil,
+    #report {
+        padding: 0px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    #overview,
+    #todos,
+    #numPupil,
+    #report {
+        padding: 0px;
+        padding-top: 50px;
+    }
+    img.profilePic {
+        width: 30px;
+        height: 30px;
+    }
+    #button-addon2 {
+        left: 77%;
+    }
+}
+
+#overview h3,
+#todos h3 {
+    font-weight: 700;
+    opacity: 0.6;
+}
+#todos .card {
+    background-color: #ff70a6;
+    color: white;
+}
+.todoListings {
+    font-size: 16px;
+}
+.todoListings:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 254, 254, 0.404);
+}
+.todoListings:last-child {
+    margin-bottom: 0;
+}
+.paginator i:hover {
+    color: #1364dc;
+    font-size: 1.2em;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+    padding: 30px;
+}
+.fc .fc-daygrid-day-number,
+.fc .fc-col-header-cell-cushion {
+    color: #616161;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.fc-day-today {
+    background-color: #1364dc !important;
+}
+.fc-day-today a.fc-daygrid-day-number {
+    color: white !important;
+    opacity: inherit;
+}
+#addTaskModal .modal-content {
+    border-radius: 0;
+    border: none;
+}
+#addTaskModal .modal-body {
+    padding: 0;
+}
+.task,
+select.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.5);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.task:focus,
+select.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#addToTask h4 {
+    font-size: 24px;
+}
+.addTaskBtn,
+.cancelAddTaskBtn {
+    width: 301px;
+    height: 31px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+}
+.addTaskBtn {
+    background: #1364dc;
+}
+.cancelAddTaskBtn {
+    background-color: #ff70a6;
+}
+.luckyFont h4 {
+    font-size: 20px;
+    padding: 0.7rem;
+}
+#report table th:first-child() {
+    background-color: #fff;
+}
+.submitReport {
+    width: 110px;
+    height: 42px;
+    left: 1282px;
+    top: 271px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    border: none;
+}
+td span.btnTime {
+    width: 74px;
+    height: 29px;
+    left: 777px;
+    top: 277px;
+    padding: 5px 15px;
+    background: #d9d9d9;
+    border-radius: 100px;
+}
+/* Calendar */
+#chat2 .form-control {
+    border-color: transparent;
+}
+
+#chat2 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+#chat button {
+    z-index: 9999;
+}
+
+/* TonLanding */
+/* Dashboard Section */
+#dashWlcTxt {
+    color: green;
+    margin-top: 5vh;
+    margin-left: 9.3vw;
+    font-family: "Poppins", sans-serif;
+}
+#staffMngrCenterDiv {
+    width: 49.9%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+#staffMngrTxt {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.padLeftSub {
+    padding-left: 0;
+}
+.padRightSub {
+    padding-right: 0.5vw;
+}
+#editBtn {
+    margin-right: 0.3rem;
+}
+.staffName {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.dashInput {
+    height: 7vh;
+}
+#dashAddBtn {
+    width: 7vw;
+    height: 7vh;
+}
+#dashEditBtn {
+    margin-right: 0.5rem;
+}
+#staffsAddedName {
+    margin-top: 2.3vh;
+    margin-bottom: 2.3vh;
+}
+
+/* Login Section */
+#childBgImgDiv {
+    background-image: url("../assets/child1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 115%;
+    height: 72vh;
+    margin-bottom: 1vh;
+}
+#loginFooterSmall {
+    background-color: rgba(19, 100, 220, 0.34);
+    padding-top: 5.5vh;
+    padding-bottom: 2.8vh;
+    width: 104%;
+}
+#loginGeneralDiv {
+    width: 100.7vw;
+}
+#loginContainerDiv {
+    width: 80%;
+    margin: 6vh auto 0 auto;
+}
+#welcomeHeaderTxt {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 3rem;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 900;
+}
+#welcomeTxt {
+    margin-bottom: 2vh;
+    font-size: 1rem;
+}
+#usernameInput,
+#passwordInput {
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(217, 217, 217, 0.6);
+    height: 7vh;
+}
+#loginBtn {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: "Poppins" sans-serif;
+    border-radius: 0;
+    height: 7vh;
+}
+#loginBlueRightDiv {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+#loginBlueDivTxt {
+    margin-top: 26vh;
+    color: #fff;
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    line-height: 45px;
+}
+#loginBackArrowLink {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+#loginFooter {
+    background-color: rgba(19, 100, 220, 0.34);
+    padding-top: 5.5vh;
+    padding-bottom: 2.8vh;
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+}
+#loginFooterRowDiv {
+    width: 85%;
+    margin: auto;
+}
+.rmPaddingRight {
+    padding-right: 0;
+}
+#loginFooterPolicyTxt {
+    font-size: 0.8rem;
+}
+.loginRightReservedP {
+    font-size: 0.8rem;
+    margin: 0;
+}
+#loginRightReservedDiv {
+    margin-left: auto;
+    width: 20%;
+}
+
+/* Landing Page Section */
+#landLogo {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    /* top: 3vh; */
+    font-size: 1.5rem;
+    /* font-weight: 900; */
+}
+#landNavUl {
+    position: relative;
+    /* top: 3vh; */
+}
+.navLink {
+    font-size: 0.9rem;
+    margin-left: 2vw;
+}
+.landLoginBtn {
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    height: 2.7vh;
+    width: 4.5vw;
+    margin-top: 1.5vh;
+    line-height: 3px;
+    margin-left: 2vw;
+    border-radius: 10px;
+}
+#landChildBgImg {
+    background-image: url("../assets/childLandingBgImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 70vh;
+}
+.landWelcomeTitle {
+    font-size: 3.3rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 20vh;
+    margin-bottom: 0;
+}
+.landWelcomeTxt {
+    width: 77%;
+    font-size: 1.1rem;
+    font-family: "Poppins" sans-serif;
+}
+.landSocialMediaHandles {
+    margin-right: 1.5vw;
+    font-size: 1.5rem;
+}
+#landRectangleBlueShape {
+    width: 580px;
+    height: 347px;
+    margin-top: 15vh;
+    background: #1364dc;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+#landJoinUsTitle {
+    font-size: 1.8rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 4vh;
+    width: 80%;
+    margin-left: 3vw;
+}
+.landJoinUsTxt {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 3vw;
+}
+#landRectangleBlueImg {
+    background-image: url("../assets/landRectangleImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 70vh;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 20vh;
+}
+.duringTheStayTitle {
+    width: 70%;
+    font-size: 1.8rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 21vh;
+    line-height: 35px;
+}
+.duringTheStayTxt {
+    width: 75%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+#duringTheStayRightBlueBox {
+    width: 17vw;
+    height: 23vh;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+}
+#duringTheStayRightBlueBox1 {
+    width: 16vw;
+    height: 23vh;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: 3vw;
+    margin-top: 2.5vh;
+}
+.landContainer {
+    width: 80%;
+    margin: auto;
+}
+#duringTheStayRightImg {
+    width: 18vw;
+    margin-left: 1.3vw;
+    position: relative;
+    bottom: 20vh;
+}
+.duringTheStayRightImg1 {
+    width: 18vw;
+    margin-top: 21.5vh;
+    position: relative;
+    right: 0.5vw;
+}
+.duringTheStayRightImg2 {
+    width: 18vw;
+    position: relative;
+    left: 1.2vw;
+    bottom: 1vh;
+}
+.duringTheStayRightImg3 {
+    width: 18vw;
+    position: relative;
+    bottom: 3.5vh;
+    right: 3.5vw;
+}
+#duringTheStayRightBlueBoxContainDiv {
+    position: relative;
+    top: 18vh;
+}
+#ourGalleryTitle {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 15vh;
+}
+#ourGalleryTxt {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 43%;
+    margin: 0 auto 8vh auto;
+}
+.ourGalleryImg {
+    width: 21.5vw;
+}
+.ourGalleryImg1 {
+    position: relative;
+    bottom: 2.5vh;
+}
+#ourPriceRatesTitle {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 13vh;
+}
+#ourPriceRatesTxt {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    width: 43%;
+    margin: 0 auto 10vh auto;
+}
+.ourPriceRatesChart {
+    width: 95%;
+    background-color: #ff70a6;
+    padding: 9vh 0vw 7vh 4vh;
+}
+.ourPriceRatesChart1 {
+    width: 95%;
+    background-color: #1364dc;
+    padding: 9vh 0vw 7vh 4vh;
+}
+.ourPriceRatesChart2 {
+    width: 95%;
+    background-color: #ffd455;
+    padding: 9vh 0vw 7vh 4vh;
+}
+.ourPriceRatesChartTitle {
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    margin: 0;
+}
+.ourPriceRatesChartTitle1 {
+    font-size: 1.8rem;
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    margin-bottom: 3vh;
+}
+.ourPriceRatesChartTxt {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 1.5vh;
+}
+.ourTestimonialsTitle {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 23vh;
+}
+.ourTestimonialsTxt {
+    width: 43%;
+    margin: auto;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.TestimonialsProfileImg {
+    width: 25%;
+    /* height: ; */
+    border-radius: 50px;
+}
+.testmonialsCardDiv {
+    border: 0;
+    background: #1364dc;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    padding: 13px 12px;
+}
+.TestimonialsProfileName {
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    color: #fff;
+}
+.TestimonialsProfileTxts {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #dbd9d9;
+    margin-bottom: 0;
+}
+.testimonialProfileRightRoundShape {
+    width: 12px;
+    height: 12px;
+    background: #0849a9;
+    border-radius: 15px;
+    position: relative;
+    top: 3.7vh;
+    left: 3.9vw;
+}
+.testimonialProfileRightRoundShape1 {
+    width: 25px;
+    height: 25px;
+    background: #0849a9;
+    border-radius: 15px;
+    position: relative;
+    top: 3vh;
+    left: 2.8vw;
+}
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 1.5px !important;
+    border-radius: 100%;
+    background-color: #1963ac !important;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-inner {
+    margin-bottom: 100px;
+}
+.newsLetterMainDiv {
+    background: #1364dc;
+    padding-top: 13vh;
+    padding-bottom: 12vh;
+}
+.ourNewsletterTitle {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+}
+.ourNewsletterTxt {
+    text-align: center;
+    color: #e2e1e1;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+#ourNewsLetterInput {
+    background: #f5f2f2;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-left: 2.3vw;
+    height: 6vh;
+    margin-left: 0vw;
+}
+.ourNewsLetterInputDiv {
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+#ourNewsletterBtn {
+    position: absolute;
+    right: 30.2vw;
+    margin-top: 0.7vh;
+    border-radius: 20px;
+    padding: 7px 15px;
+}
+.contactUsTxt {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: "Luckiest Guy", cursive;
+    margin-top: 7vh;
+    margin-bottom: 1.5vh;
+}
+.contactUsTxt1 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 6vh;
+}
+.contactUsForm {
+    width: 30%;
+    margin: auto;
+}
+.contactUsInputs {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(217, 217, 217, 0.6);
+    margin-bottom: 1.3vh;
+    height: 6vh;
+}
+.contactUsTextarea {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(217, 217, 217, 0.6);
+    margin-bottom: 1.3vh;
+    height: 15vh;
+}
+#contactUsBtn {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#landOrgDetailsMainDiv {
+    width: 60%;
+    margin: 10vh auto;
+}
+.landOrgDetailsIcons {
+    color: #1364dc;
+}
+#landFooter {
+    background: #1364dc;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.landFooterTxt {
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 0;
+    color: #d9d9d9;
+}
+.landFooterDaycareTxt {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1297px) {
+    #landRectangleBlueShape {
+        width: 530px;
+        height: 347px;
+        margin-top: 15vh;
+        background: #1364dc;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+    #landRectangleBlueImg {
+        background-image: url("../assets/landRectangleImg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 70vh;
+        margin-left: 2vw;
+        position: relative;
+        bottom: 20vh;
+    }
+    #landJoinUsTitle {
+        font-size: 1.8rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 4vh;
+        width: 95%;
+        margin-left: 3vw;
+    }
+    .landJoinUsTxt {
+        font-size: 1.2rem;
+        font-family: sans-serif;
+        width: 100%;
+        margin-left: 3vw;
+    }
+    .duringTheStayTitle {
+        width: 90%;
+        font-size: 1.8rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 21vh;
+        line-height: 35px;
+    }
+    .duringTheStayTxt {
+        width: 90%;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+    .ourPriceRatesChart {
+        width: 100%;
+        background-color: #ff70a6;
+        padding: 9vh 0vw 7vh 4vh;
+    }
+    .ourPriceRatesChart1 {
+        width: 100%;
+        background-color: #1364dc;
+        padding: 9vh 0vw 7vh 4vh;
+    }
+    .ourPriceRatesChart2 {
+        width: 100%;
+        background-color: #ffd455;
+        padding: 9vh 0vw 7vh 4vh;
+    }
+    #ourGalleryTxt {
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        width: 57%;
+        margin: 0 auto 8vh auto;
+    }
+}
+
+/* Medium Device */
+@media screen and (max-width: 991px) {
+    #loginBlueRightDiv {
+        height: 154.6vh;
+        position: absolute;
+        right: 0;
+    }
+    #loginGeneralDiv {
+        width: 90vw;
+    }
+    #loginFooterSmall {
+        background-color: rgba(19, 100, 220, 0.34);
+        padding-top: 5.5vh;
+        padding-bottom: 2.8vh;
+        width: 111.3%;
+    }
+    #landJoinUsTitle {
+        font-size: 1.8rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 4vh;
+        width: 80%;
+        margin-left: 0vw;
+    }
+    .landJoinUsTxt {
+        font-size: 1.2rem;
+        font-family: sans-serif;
+        width: 80%;
+        margin-left: 0vw;
+    }
+    #duringTheStayRightBlueBox {
+        width: 30vw;
+        height: 23vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+    #duringTheStayRightImg {
+        width: 38vw;
+        margin-left: 1.9vw;
+        position: relative;
+        bottom: 20vh;
+    }
+    .duringTheStayRightImg1 {
+        width: 38vw;
+        margin-top: 21.5vh;
+        position: relative;
+        right: 0vw;
+    }
+    .duringTheStayRightImg2 {
+        width: 38vw;
+        position: relative;
+        left: 1.9vw;
+        bottom: 1vh;
+    }
+    #duringTheStayRightBlueBox1 {
+        width: 30vw;
+        height: 23vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+        position: relative;
+        left: 10.5vw;
+        margin-top: 9.5vh;
+    }
+    .duringTheStayRightImg3 {
+        width: 38vw;
+        position: relative;
+        bottom: 10.5vh;
+        right: 10.5vw;
+    }
+    .ourGalleryImg {
+        width: 40vw;
+    }
+    .ourPriceRatesChart {
+        width: 60%;
+        background-color: #ff70a6;
+        padding: 9vh 0vw 7vh 4vh;
+        margin-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ourPriceRatesChart1 {
+        width: 60%;
+        background-color: #1364dc;
+        padding: 9vh 0vw 7vh 4vh;
+        margin-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ourPriceRatesChart2 {
+        width: 60%;
+        background-color: #ffd455;
+        padding: 9vh 0vw 7vh 4vh;
+        margin-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ourTestimonialsTitle {
+        font-family: "Luckiest Guy", cursive;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-top: 23vh;
+    }
+    .ourTestimonialsTxt {
+        width: 90%;
+        margin: auto;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+    .contactUsForm {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 905px) {
+    #loginBlueRightDiv {
+        height: 157.1vh;
+        position: absolute;
+        right: 0;
+    }
+    #loginBlueDivTxt {
+        margin-top: 26vh;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: "Luckiest Guy", cursive;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #duringTheStayRightBlueBox {
+        width: 65vw;
+        height: 40vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+    #duringTheStayRightImg {
+        width: 70vw;
+        position: relative;
+        margin-left: 2.7vw;
+        bottom: 37vh;
+    }
+    .duringTheStayRightImg1 {
+        width: 70vw;
+        margin-top: 0vh;
+        position: relative;
+        right: 0vw;
+        bottom: 17vh;
+        left: 2.9vw;
+    }
+    .duringTheStayRightImg2 {
+        width: 70vw;
+        position: relative;
+        left: 2.9vw;
+        bottom: 15vh;
+    }
+    #duringTheStayRightBlueBox1 {
+        width: 65vw;
+        height: 40vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+        position: relative;
+        left: 0vw;
+        /* right: 16vw; */
+        bottom: 6vh;
+        margin-top: 0vh;
+    }
+    .duringTheStayRightImg3 {
+        width: 70vw;
+        position: relative;
+        bottom: 7vh;
+        right: 0vw;
+        left: 4vw;
+    }
+    .ourGalleryImg {
+        width: 80vw;
+    }
+    #ourGalleryTxt {
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        width: 95%;
+        margin: 0 auto 8vh auto;
+    }
+    #ourPriceRatesTxt {
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        width: 95%;
+        margin: 0 auto 10vh auto;
+    }
+    .ourTestimonialsTxt {
+        width: 95%;
+        margin: auto;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+}
+@media screen and (max-width: 750px) {
+    #loginBlueRightDiv {
+        height: 159.9vh;
+        position: absolute;
+        right: 0;
+    }
+}
+@media screen and (max-width: 734px) {
+    #loginBlueRightDiv {
+        height: 163vh;
+        position: absolute;
+        right: 0;
+    }
+    #loginBlueDivTxt {
+        margin-top: 26vh;
+        color: #fff;
+        font-size: 1.3rem;
+        font-family: "Luckiest Guy", cursive;
+        line-height: 45px;
+    }
+}
+
+/* Small Device */
+@media screen and (max-width: 700px) {
+    #landRectangleBlueShape {
+        width: 260px;
+        height: 180px;
+        margin-top: 15vh;
+        background: #1364dc;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+    #landRectangleBlueImg {
+        background-image: url("../assets/landRectangleImg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 70vw;
+        height: 70vh;
+        margin-left: 5vw;
+        position: relative;
+        bottom: 25vh;
+    }
+    .duringTheStayTitle {
+        width: 100%;
+        font-size: 1.7rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 21vh;
+    }
+    .duringTheStayTxt {
+        width: 90%;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+    }
+    #duringTheStayRightBlueBoxContainDiv {
+        position: relative;
+        top: 15vh;
+    }
+    #duringTheStayRightBlueBox {
+        width: 76vw;
+        height: 28vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+    #duringTheStayRightImg {
+        width: 75vw;
+        margin-left: 5vw;
+        position: relative;
+        bottom: 25vh;
+    }
+    .duringTheStayRightImg1 {
+        width: 75vw;
+        margin-top: 0vh;
+        position: relative;
+        right: 0vw;
+        left: 5vw;
+        bottom: 8vh;
+    }
+    .duringTheStayRightImg2 {
+        width: 75vw;
+        position: relative;
+        left: 5vw;
+        bottom: 6vh;
+    }
+    #duringTheStayRightBlueBox1 {
+        width: 75vw;
+        height: 23vh;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+        position: relative;
+        left: 0vw;
+        margin-top: 2.5vh;
+    }
+    .duringTheStayRightImg3 {
+        width: 75vw;
+        position: relative;
+        bottom: 7vh;
+        right: 0vw;
+        left: 5vw;
+    }
+    #ourGalleryTitle {
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 15vh;
+    }
+    #ourGalleryTxt {
+        text-align: center;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        width: 100%;
+        margin: 0 auto 8vh auto;
+    }
+    .ourGalleryImg {
+        width: 80vw;
+    }
+    #ourGalleryTxt {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+        width: 100%;
+        margin: 0 auto 8vh auto;
+    }
+    #ourPriceRatesTitle {
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 13vh;
+    }
+    #ourPriceRatesTxt {
+        text-align: center;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+        width: 100%;
+        margin: 0 auto 10vh auto;
+    }
+    .ourPriceRatesChartLandSmallDevice {
+        margin-bottom: 1vh;
+    }
+    .ourPriceRatesChart {
+        width: 98%;
+        background-color: #ff70a6;
+        padding: 9vh 0vw 6vh 4vh;
+        margin-bottom: 6vh;
+    }
+    .ourPriceRatesChart1 {
+        width: 98%;
+        background-color: #1364dc;
+        padding: 9vh 0vw 6vh 4vh;
+        margin-bottom: 6vh;
+    }
+    .ourPriceRatesChart2 {
+        width: 98%;
+        background-color: #ffd455;
+        padding: 9vh 0vw 6vh 4vh;
+    }
+    .ourTestimonialsTitle {
+        font-family: "Luckiest Guy", cursive;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 23vh;
+    }
+    .ourTestimonialsTxt {
+        width: 100%;
+        margin: auto;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+    #landJoinUsTitle {
+        font-size: 1.7rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 10vh;
+        width: 100%;
+        margin-left: 3vw;
+    }
+    .landJoinUsTxt {
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        width: 100%;
+        margin-left: 3vw;
+    }
+    .testimonialProfileRightRoundShape {
+        width: 12px;
+        height: 12px;
+        background: #0849a9;
+        border-radius: 15px;
+        position: relative;
+        top: 2.9vh;
+        left: 8vw;
+    }
+    .testimonialProfileRightRoundShape1 {
+        width: 25px;
+        height: 25px;
+        background: #0849a9;
+        border-radius: 15px;
+        position: relative;
+        top: 2vh;
+        left: 3.3vw;
+    }
+    .ourNewsletterTitle {
+        text-align: center;
+        font-size: 1.9rem;
+        font-family: "Luckiest Guy", cursive;
+        color: #fff;
+    }
+    .ourNewsletterTxt {
+        text-align: center;
+        color: #e2e1e1;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+    }
+    #ourNewsLetterInput {
+        border-radius: 20px;
+        padding-left: 2.3vw;
+        margin-left: 7vw;
+    }
+    .ourNewsLetterInputDiv {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        margin-left: 2vw;
+    }
+    #ourNewsletterBtn {
+        position: absolute;
+        right: 10vw;
+        margin-top: 0.9vh;
+        border-radius: 15px;
+        padding: 1.5px 7px;
+    }
+    .contactUsTxt {
+        text-align: center;
+        font-size: 2.3rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 13vh;
+        margin-bottom: 1.5vh;
+    }
+    .contactUsTxt1 {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .contactUsForm {
+        width: 90%;
+        margin: auto;
+    }
+    #landOrgDetailsMainDiv {
+        width: 95%;
+        margin: 10vh auto;
+    }
+    .landWelcomeTitle {
+        font-size: 2.9rem;
+        font-family: "Luckiest Guy", cursive;
+        margin-top: 13vh;
+        margin-bottom: 0;
+    }
+    .landWelcomeTxt {
+        width: 100%;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+    }
+    #landChildBgImg {
+        background-image: url("../assets/childLandingBgImg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 70vh;
+    }
+    .landSocialMediaHandles {
+        margin-right: 5vw;
+        font-size: 1.3rem;
+    }
+
+    /* Login Section */
+    #childBgImgDiv {
+        background-image: url("../assets/child1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 115%;
+        height: 23vh;
+        margin-bottom: 3vh;
+    }
+    #loginBlueDivTxt {
+        margin-top: 20vh;
+        color: #fff;
+        font-size: 0.7rem;
+        font-family: "Luckiest Guy", cursive;
+        line-height: 30px;
+        width: 50%;
+    }
+    #loginBlueRightDiv {
+        height: 114.7vh;
+        position: absolute;
+        right: 0;
+    }
+    #welcomeHeaderTxt {
+        font-size: 2.5rem;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 900;
+    }
+    #loginRightReservedDiv {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #welcomeHeaderTxt {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 900;
+    }
+    #welcomeTxt {
+        margin-bottom: 2vh;
+        font-size: 0.8rem;
+    }
+    #passwordInput {
+        margin-bottom: 1vh;
+        border: none;
+        border-radius: 0;
+        background-color: rgba(217, 217, 217, 0.6);
+    }
+    #loginBtn {
+        width: 100%;
+        font-weight: 800;
+        border-radius: 0;
+    }
+    #loginFooterPolicyTxt {
+        font-size: 0.7rem;
+    }
+    .loginRightReservedP {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    #loginContainerDiv {
+        width: 80%;
+        margin: 3vh auto 0 auto;
+    }
+    .landLoginBtn {
+        font-size: 0.6rem;
+        font-family: sans-serif;
+        height: 3.5vh;
+        width: 25vw;
+        margin-top: 1.5vh;
+        line-height: 3px;
+        margin-left: 2vw;
+        border-radius: 10px;
+    }
+    #loginFooterSmall {
+        background-color: rgba(19, 100, 220, 0.34);
+        padding-top: 5.5vh;
+        padding-bottom: 2.8vh;
+        width: 116.5%;
+    }
+}
