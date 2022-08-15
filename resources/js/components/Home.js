@@ -29,22 +29,7 @@ function Landing() {
                         id="navbarNavAltMarkup"
                     >
                         <ul className="navbar-nav ms-auto" id="landNavUl">
-                            {/* <NavLink
-                                className="nav-link navLink active"
-                                aria-current="page"
-                                to="/about"
-                            >
-                                ABOUT
-                            </NavLink>
-                            <NavLink className="nav-link navLink"  to="/activity">
-                                ACTIVITIES
-                            </NavLink>
-                            <NavLink className="nav-link navLink"  to="/gallery">
-                                GALLERY
-                            </NavLink>
-                            <NavLink className="nav-link navLink"  to="/contact">
-                                CONTACT
-                            </NavLink> */}
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="#home">Home</a>
                             </li>

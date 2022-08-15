@@ -233,7 +233,7 @@ export default function Pupil() {
                     <div className="col-lg-8 py-4 justify-content-center">
                         <Navbar />
                         <section id="numPupil">
-                            <div className="d-flex gap-4 align-items-center">
+                            {/* <div className="d-flex gap-4 align-items-center">
                                 <div className="d-md-flex">{view == 0 ? 'All Kids' : view == 1 ? 'Add Kid' : 'Update Kid'}</div>
                                 {
                                     view == 0 ?
@@ -249,7 +249,7 @@ export default function Pupil() {
                                             Back
                                         </button>
                                 }
-                            </div>
+                            </div> */}
                             {view == 0 ? <div className="d-flex justify-content-end align-items-center">
                                 <p>Sort By: &nbsp;</p>
                                 <p className="text-system cursor-pointer">First Name <i className="fa fa-arrow-down" aria-hidden="true"></i></p>

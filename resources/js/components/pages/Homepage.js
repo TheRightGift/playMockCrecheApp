@@ -15,7 +15,7 @@ export default function Homepage() {
     return (
         <div>
             <div className="landContainer">
-                <div id="home" className="row">
+                <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
                         <p className="text-primary landWelcomeTitle">
                             WELCOME TO DAYCARE
@@ -35,7 +35,7 @@ export default function Homepage() {
                         <div id="landChildBgImg"></div>
                     </div>
                 </div>
-                <div id="about" className="row">
+                <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
                         <div id="landRectangleBlueShape">
                             <div id="landRectangleBlueImg"></div>
@@ -58,7 +58,7 @@ export default function Homepage() {
                         </p>
                     </div>
                 </div>
-                <div id="activities" className="row">
+                <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <p className="text-primary duringTheStayTitle">
                             During the stay , children will be able to attend
@@ -112,7 +112,7 @@ export default function Homepage() {
                     </div>
                 </div>
 
-                <div id="gallery">
+                <div>
                     <p className="text-primary" id="ourGalleryTitle">
                         Our Gallery
                     </p>
@@ -162,7 +162,7 @@ export default function Homepage() {
                     </div>
                 </div>
 
-                <div id="pricing">
+                <div>
                     <p className="text-primary" id="ourPriceRatesTitle">
                         Our Pricing rates
                     </p>
@@ -254,7 +254,7 @@ export default function Homepage() {
                     </div>
                 </div>
 
-                <div id="testimonials">
+                <div>
                     <p className="text-primary ourTestimonialsTitle">
                         Our Testimonials
                     </p>
@@ -559,7 +559,7 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div id="contact" className="newsLetterMainDiv">
+            <div className="newsLetterMainDiv">
                 <p className="ourNewsletterTitle">Our NEWSLETTER</p>
                 <p className="ourNewsletterTxt">
                     Subscribe to our newsletter to stay upo date
