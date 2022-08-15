@@ -12,28 +12,23 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// require('./pages/Parent');
-// require('./pages/Children');
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import App from './components/App';
-import Parent from "./components/pages/Parent";
-import Children from "./components/pages/Children";
+import Login from "./components/pages/Login";
 import Dashboard from './components/pages/Staff/Dashboard';
 import Pupil from './components/pages/Staff/NumPupils';
 import Schedule from './components/pages/Staff/Scheduler';
-import Report from './components/pages/Staff/Reports';
 import Chat from './components/pages/Staff/Chats';
 import Landing from './components/Home';
-import About from './components/pages/About';
-import Activity from './components/pages/Activity';
-import Gallery from './components/pages/Gallery';
-import Contact from './components/pages/Contact';
 import Homepage from './components/pages/Homepage';
-import Login from "./components/Login";
-import Superadmin from "./components/Superadmin";
-
+import ReportView from './components/pages/ReportView';
+import SuperDashboard from './components/pages/SuperAdmin/Dashboard';
+import Admin from './components/pages/SuperAdmin/Admin';
+import Staff from './components/pages/SuperAdmin/Staff';
+import Parent from './components/pages/SuperAdmin/Parent';
+import Children from './components/pages/SuperAdmin/Children';
 function NoMatch() {
   return (
     <div>
@@ -47,33 +42,34 @@ function NoMatch() {
 
 const rootElement = document.getElementById('app');
 
-
-
 ReactDOM.render(
-    <Router>
-        <Routes>
-            <Route path="/" element={<Landing />}>
-                <Route path="/" element={<Homepage />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/activity" element={<Activity />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/contact" element={<Contact />} />
-            </Route>
+  <Router>
+    <Routes>
+      <Route path="/" element={<Landing />} >
+        <Route path="/" element={<Homepage />} />
+      </Route>
 
-            <Route path="/" element={<App />}>
-                <Route index path="/dashboard" element={<Dashboard />} />
-                <Route path="/no-of-pupils" element={<Pupil />} />
-                <Route path="/schedule" element={<Schedule />} />
-                <Route path="/reports" element={<Report />} />
-                <Route path="/chats" element={<Chat />} />
-            </Route>
-            <Route path="*" element={<NoMatch />} />
+      <Route path="/login" element={<Login />} />
+      {/* <Route path="/parent" element={<Parent />} /> */}
+      {/* <Route path="/admin" element={<Admin />} /> */}
 
-            <Route path="/login" element={<Login />} />
-            <Route path="/parent" element={<Parent />} />
-            <Route path="/superadmin" element={<Superadmin />} />
-        </Routes>
-    </Router>,
-    rootElement
+      <Route path="/" element={<App />}>
+        <Route index path="/dashboard" element={<Dashboard />} />
+        <Route path='/no-of-pupils' element={<Pupil />} />
+        <Route path='/schedule' element={<Schedule />} />
+        <Route path='/reports' element={<ReportView /> } />
+        <Route path='/chats' element={<Chat />} />
+      </Route>
+      <Route path="/" element={<Admin />}>
+        <Route index path="/admin" element={<SuperDashboard />} />
+        <Route path='/pupils' element={<Children />} />
+        <Route path='/schedule' element={<Schedule />} />
+        <Route path='/staffs' element={<Staff /> } />
+        <Route path='/parents' element={<Parent />} />
+      </Route>
+      <Route path="*" element={<NoMatch />} />
+    </Routes>
+  </Router >,
+  rootElement
 );
 
